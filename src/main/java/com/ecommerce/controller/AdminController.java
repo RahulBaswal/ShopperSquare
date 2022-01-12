@@ -113,7 +113,6 @@ public class AdminController {
 		product.setImageName(imageUUID);
 
 		productService.addProduct(product);
-
 		return "redirect:/admin/products";
 	}
 
